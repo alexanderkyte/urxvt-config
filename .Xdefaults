@@ -1,0 +1,47 @@
+Xft*dpi:                96
+Xft*antialias:          true
+Xft*hinting:            full
+
+URxvt*geometry: 85x16
+URxvt*fading:        0
+URxvt*tintColor:     #ffffff
+URxvt*shading:        0
+URxvt*inheritPixmap:     False
+
+URxvt*color0:#1E1E1E
+URxvt*color1:#CC0000
+URxvt*color2:#4E9A06
+URxvt*color3:#C4A000
+URxvt*color4:#32609A
+URxvt*color5:#75507B
+URxvt*color6:#06989A
+URxvt*color7:#D3D7CF
+URxvt*color8:Grey25
+URxvt*color9:#A70606
+URxvt*color10:#89E134
+URxvt*color11:Yellow
+URxvt*color12:#729FCF
+URxvt*color13:#75507B
+URxvt*color14:#06989A
+URxvt*color15:White
+
+URxvt*background:#1E1E1E
+URxvt*foreground:White
+URxvt*scrollBar:false
+
+# how many lines you want it to save per session
+URxvt*saveLines:32767
+URxvt*troughColor:#000000
+URxvt*scrollColor:#222222
+URxvt*font: xft:Inconsolata:Medium:pixelsize=10
+
+# with this set to true, when an app sends a bell to the terminal, awesome hilights the appropriate tag(s) ;)
+URxvt*urgentOnBell: true
+
+# these three lines enable clicking on links to open them ;)
+## if you want to enable tab support, append ,tabbed to the next line
+## then use shift+down arrow to create tabs and shift+{left,right} arrows to switch between them
+URxvt*perl-ext-common: default,matcher,-option-popup,-selection-popup,-realine,tabbed,clipboard
+URxvt*matcher.button: 1
+# don't forget to change this to your favorite browser
+URxvt*urlLauncher: /usr/bin/firefox
